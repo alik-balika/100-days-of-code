@@ -1,5 +1,8 @@
 # Challenge Name: Profile Card
 
+Access my solution to this challenge at https://alik-balika.github.io/100-days-of-code/01-profile-card/.
+Solution completed 09/02/2024.
+
 You can work on this challenge directly in [BigDevSoon Code Editor](https://app.bigdevsoon.me/challenges/profile-card/browser).
 
 ![Profile Card Design](https://github.com/bigdevsoon/100-days-of-code/blob/main/day-01/design.png)
