@@ -1,3 +1,6 @@
+Access my solution to this challenge at https://alik-balika.github.io/100-days-of-code/02-add-to-bag/.
+Solution completed 09/03/2024.
+
 ## User Story
 
 As a shopper, I want a clear and intuitive product page for a polo shirt that allows me to view details, select options, and purchase easily.
