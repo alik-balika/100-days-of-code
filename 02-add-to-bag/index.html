@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <!-- BigDevSoon's unique tag to identify the solution -->
+    <bds />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigDevSoon Challenge | Add To Bag</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-serif min-h-screen flex items-center justify-center">
+    <div class="flex flex-col lg:flex-row lg:justify-center">
+      <!-- MAIN PICTURE DISPLAY -->
+      <div class="mt-5 lg:mt-0 h-96 lg:h-96">
+        <img
+          id="product-display"
+          src="/02-add-to-bag/images/shirt-front.png"
+          class="mx-auto w-11/12 h-full object-contain bg-gray-200 rounded-lg lg:w-80 lg:mx-3"
+        />
+      </div>
+      <!-- PICTURE CHOOSING SECTION -->
+      <div
+        class="m-1 flex justify-evenly mt-4 lg:mt-0 lg:space-y-8 lg:justify-start lg:order-first lg:flex-col"
+      >
+        <img
+          src="/02-add-to-bag/images/shirt-front.png"
+          class="img-select h-32 w-24 lg:h-24 lg:w-20 bg-gray-200 rounded-lg p-3 border-4 cursor-pointer border-blue-600 hover:border-4 hover:border-blue-600"
+        />
+        <img
+          src="/02-add-to-bag/images/shirt-back.png"
+          class="img-select h-32 w-24 lg:h-24 lg:w-20 bg-gray-200 rounded-lg p-3 opacity-50 cursor-pointer hover:border-4 hover:border-blue-600"
+        />
+        <img
+          src="/02-add-to-bag/images/shirt-side.png"
+          class="img-select h-32 w-24 lg:h-24 lg:w-20 bg-gray-200 rounded-lg p-3 opacity-50 cursor-pointer hover:border-4 hover:border-blue-600"
+        />
+      </div>
+      <!-- PRODUCT DETAILS SECTION -->
+      <div class="m-3">
+        <p class="text-blue-500 tracking-tighter">POLO RALPH</p>
+        <h3 class="text-2xl font-bold mt-2">
+          Custom Fit Polo Bear Oxford Shirt
+        </h3>
+        <p class="text-gray-500 mt-2">
+          Blue polo with a classic cut. Made of smooth and soft cotton.
+        </p>
+        <h3 class="text-2xl font-bold mt-4">
+          $99.00<span class="text-sm ml-3 bg-blue-200 text-blue-500 p-1 rounded"
+            >-25%</span
+          >
+        </h3>
+        <p class="text-gray-400 line-through">$132.00</p>
+        <p class="font-bold text-lg mt-5">CHOOSE SIZE</p>
+        <ul class="flex ml-5 font-bold mt-3 text-lg">
+          <li class="cursor-pointer p-3 hover:bg-black hover:text-white">S</li>
+          <li class="cursor-pointer p-3 hover:bg-black hover:text-white">M</li>
+          <li class="cursor-pointer p-3 hover:bg-black hover:text-white">L</li>
+          <li class="cursor-pointer p-3 hover:bg-black hover:text-white">XL</li>
+          <li class="cursor-pointer p-3 hover:bg-black hover:text-white">
+            XXL
+          </li>
+        </ul>
+        <div class="mx-4 mt-8">
+          <button
+            class="rounded bg-blue-500 text-white p-2 w-full hover:bg-blue-600"
+            onclick="showToast()"
+          >
+            ADD TO BAG
+          </button>
+        </div>
+        <div
+          id="toast"
+          class="fixed bottom-5 right-5 bg-gradient-to-r from-sky-500 to-indigo-500 text-white p-3 rounded-lg shadow-lg invisible"
+        >
+          Added to bag!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
