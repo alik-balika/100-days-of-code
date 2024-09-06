@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <!-- BigDevSoon's unique tag to identify the solution -->
+    <bds />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigDevSoon Challenge | Mobile Navigation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body
+    class="lg:bg-gray-200 lg:h-screen lg:flex lg:items-center lg:justify-center"
+  >
+    <!-- CARD -->
+    <div
+      class="p-8 lg:bg-white lg:rounded-2xl lg:shadow-md lg:max-w-lg lg:w-full"
+    >
+      <!-- CARD HEADER -->
+      <div class="flex items-center">
+        <img
+          src="https://randomuser.me/api/portraits/women/1.jpg"
+          class="w-20 h-20 rounded-3xl"
+        />
+        <div class="ml-6">
+          <h5 class="font-bold text-lg">Lisa Richardson</h5>
+          <p class="text-gray-500">Environmental meteorologist</p>
+        </div>
+      </div>
+      <hr class="mt-8 mb-6" />
+      <!-- CARD BODY -->
+      <div>
+        <ul>
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-user-group"></i>
+              </div>
+              <p class="font-bold text-xl">Personal Data</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <p class="font-bold text-xl">Messages</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-bell"></i>
+              </div>
+              <p class="font-bold text-xl">Notifications</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p class="font-bold text-xl">Location</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <p class="font-bold text-xl">Community</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+          <hr class="my-8" />
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-user-group"></i>
+              </div>
+              <p class="font-bold text-xl">FAQs</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+          <li
+            class="list-item-select cursor-pointer flex items-center justify-between p-2 active:bg-gray-300"
+          >
+            <div class="flex items-center space-x-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-xl"
+              >
+                <i class="fa-solid fa-gear"></i>
+              </div>
+              <p class="font-bold text-xl">Settings</p>
+            </div>
+            <p><i class="fa-solid fa-angle-right"></i></p>
+          </li>
+        </ul>
+      </div>
+      <!-- CARD NAVIGATION BAR -->
+      <div class="fixed lg:static left-0 bottom-0 bg-white w-full">
+        <div class="flex justify-evenly py-3">
+          <div class="nav-icon p-5 cursor-pointer">
+            <i class="fa-solid fa-house fa-lg text-gray-400"></i>
+          </div>
+          <div class="nav-icon p-5 cursor-pointer">
+            <i class="fa-solid fa-chart-line fa-lg text-gray-400"></i>
+          </div>
+          <div class="nav-icon p-5 cursor-pointer">
+            <i class="fa-regular fa-envelope fa-lg text-gray-400"></i>
+          </div>
+          <div class="nav-icon p-5 cursor-pointer">
+            <i class="fa-regular fa-user fa-lg text-blue-500"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
