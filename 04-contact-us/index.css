@@ -1,0 +1,6 @@
+@layer components {
+  .glow {
+    @apply relative;
+    filter: drop-shadow(0 0 10px rgba(236, 72, 153, 0.8)); /* Pink glow */
+  }
+}

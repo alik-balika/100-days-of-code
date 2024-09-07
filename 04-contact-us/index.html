@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <bds />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigDevSoon Challenge | Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="min-h-screen bg-gradient-to-b from-blue-600 to-rose-900 p-10 md:p-16 md:flex md:justify-between xl:justify-center md:space-x-32"
+    >
+      <!-- CONTACT US HEADER -->
+      <div class="md:w-full xl:w-fit md:justify-center">
+        <div class="text-white md:max-w-96">
+          <h1 class="text-5xl">Contact Us</h1>
+          <p class="text-xs md:text-base my-3 tracking-wide">
+            Get in touch with us! Whether you have questions, feedback, or just
+            want to say hello, we're here for you.
+          </p>
+          <div class="bg-pink-500 p-3 rounded-2xl md:mt-28">
+            <p>Windler, Lockman and McClure</p>
+            <p>3629 N Cole Rd, Boise, Illinois</p>
+          </div>
+          <div class="hidden md:block">
+            <div class="-mt-4 text-center cursor-default select-none">
+              <span class="text-pink-500 text-5xl">&#9660;</span>
+            </div>
+            <div class="text-center cursor-default select-none">
+              <span class="text-pink-500 text-xl md:text-3xl glow"
+                >&#9679;</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT US FORM -->
+      <div class="md:w-full xl:w-fit md:flex md:justify-center">
+        <form
+          class="bg-white p-5 shadow-md rounded-2xl my-4 md:max-w-[453px] xl:max-w-[550px] flex flex-col min-h-[300px] max-h-[600px]"
+        >
+          <h2 class="font-semibold tracking-wide text-md">Send us a Message</h2>
+          <!-- INPUTS -->
+          <div class="space-y-4 my-5">
+            <input
+              type="text"
+              placeholder="Name"
+              class="border border-gray-400 p-2 rounded-xl w-full placeholder:text-slate-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:border-2"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="border border-gray-400 p-2 rounded-xl w-full placeholder:text-slate-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:border-2"
+            />
+            <input
+              type="tel"
+              placeholder="Phone"
+              class="border border-gray-400 p-2 rounded-xl w-full placeholder:text-slate-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:border-2"
+            />
+          </div>
+          <!-- CONTACT METHOD -->
+          <div class="text-slate-500">
+            <p class="text-sm">Preferred contact method of communication</p>
+            <div class="my-2 space-x-5">
+              <span>
+                <input type="radio" id="email" name="contact-method" />
+                <label for="email">Email</label>
+              </span>
+              <span>
+                <input type="radio" id="phone" name="contact-method" />
+                <label for="phone">Phone</label>
+              </span>
+            </div>
+          </div>
+          <!-- MESSAGE TEXT FIELD -->
+          <div class="mt-4 flex-grow">
+            <textarea
+              name="Message"
+              id="message"
+              placeholder="Message"
+              class="border border-gray-400 p-2 rounded-xl w-full placeholder:text-slate-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:border-2 h-32"
+            ></textarea>
+          </div>
+          <!-- SUBMIT BUTTON -->
+          <button
+            class="bg-pink-500 hover:bg-pink-400 p-2 rounded-full w-full mt-8"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
