@@ -15,8 +15,8 @@
   </head>
   <body>
     <div class="md:flex">
-      <div class="relative">
-        <img src="images\coffe.webp" />
+      <div class="relative md:h-screen">
+        <img src="images\coffe.webp" class="md:object-cover md:h-full" />
         <p
           class="absolute bottom-10 text-white bg-black p-4 w-56 uppercase text-xs font-bold"
         >
@@ -74,7 +74,7 @@
         <!-- Ingredients -->
         <div class="mt-4">
           <h2 class="font-bold text-xl">INGREDIENTS</h2>
-          <ul class="ml-1">
+          <ul class="ml-1 space-y-2">
             <li class="text-lg">
               <input
                 type="checkbox"
@@ -115,7 +115,7 @@
         <!-- Instructions -->
         <div class="mt-4">
           <h2 class="font-bold text-xl">INSTRUCTIONS</h2>
-          <ol class="list-decimal ml-7">
+          <ol class="list-decimal ml-7 space-y-3">
             <li>Boil some water and let sit for 1-2 minutes.</li>
             <li>
               Put the coffee grounds into a cafetiere and pour in the water.
@@ -142,9 +142,3 @@
     </div>
   </body>
 </html>
-
-<!-- 
-Mobile:
-Everything almost the same but the picture is now
-on top and everything is below it
--->
